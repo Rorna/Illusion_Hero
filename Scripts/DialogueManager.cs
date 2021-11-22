@@ -165,7 +165,7 @@ public class DialogueManager : MonoBehaviour
     }
     // Update is called once per frame
     void Update()
-    {
+    { 
         go.SetActive(true);
         if (talking && keyActivated) //대화중일때만 'z'키 활성화
         {

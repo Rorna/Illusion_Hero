@@ -2,25 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//싱글턴
 
 public class DialogueManager : MonoBehaviour
 {
-    public static DialogueManager instance;
-
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            DontDestroyOnLoad(this.gameObject); 
-            instance = this;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-            Debug.Log("재생성");
-        }
-    }
+    public GameObject go; //dialogue manager
 
     public Text text;
     public SpriteRenderer rendererSprite; 
@@ -181,7 +166,8 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(talking && keyActivated) //대화중일때만 'z'키 활성화
+        go.SetActive(true);
+        if (talking && keyActivated) //대화중일때만 'z'키 활성화
         {
             //'z'키를 눌렀을때 다음 문장 출력
             if (Input.GetKeyDown(KeyCode.Z))

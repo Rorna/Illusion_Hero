@@ -15,7 +15,7 @@
 > <img src="https://user-images.githubusercontent.com/32096820/142854930-4e9fcbcb-278a-4710-b747-1234dcf895a7.gif">
 ## 素手攻撃　맨손 공격
 > <img src="https://user-images.githubusercontent.com/32096820/142854944-b4b69f84-50d2-4276-aa97-1970c05150eb.gif">
-## インヴェントリー　인벤토리
+## インベントリ　인벤토리
 > <img src="https://user-images.githubusercontent.com/32096820/142854953-e07eb7eb-ec4a-4836-a2b6-f87a16670de6.gif">
 ## 装備窓　장비창
 > <img src="https://user-images.githubusercontent.com/32096820/142854955-61990bc1-3f94-44b3-b4cc-d30909b9562b.gif">
